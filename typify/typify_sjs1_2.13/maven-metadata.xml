@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>typify</groupId>
+  <artifactId>typify_sjs1_2.13</artifactId>
+  <version>4.0.0-RC2</version>
+  <versioning>
+    <latest>4.0.0-RC2</latest>
+    <release>4.0.0-RC2</release>
+    <versions>
+      <version>4.0.0-RC1</version>
+      <version>4.0.0-RC2</version>
+    </versions>
+    <lastUpdated>20200928135652</lastUpdated>
+  </versioning>
+</metadata>
