@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>ch.epfl.scala</groupId>
+    <artifactId>profiledb_2.13</artifactId>
+    <packaging>jar</packaging>
+    <description>profiledb</description>
+    <url>https://github.com/scalacenter/scalac-profiling</url>
+    <version>1.0.1-SNAPSHOT</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://opensource.org/licenses/Apache-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>profiledb</name>
+    <inceptionYear>2017</inceptionYear>
+    <organization>
+        <name>ch.epfl.scala</name>
+        <url>https://github.com/scalacenter/scalac-profiling</url>
+    </organization>
+    <scm>
+        <url>https://github.com/mblink/scalac-profiling</url>
+        <connection>scm:git:https://github.com/mblink/scalac-profiling.git</connection>
+        <developerConnection>scm:git:git@github.com:mblink/scalac-profiling.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>jvican</id>
+            <name>Jorge Vicente Cantero</name>
+            <url>https://github.com/jvican</url>
+            <email>jorge@vican.me</email>
+        </developer>
+    </developers>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.13.10</version>
+        </dependency>
+        <dependency>
+            <groupId>com.thesamet.scalapb</groupId>
+            <artifactId>scalapb-runtime_2.13</artifactId>
+            <version>0.9.7</version>
+        </dependency>
+    </dependencies>
+</project>
