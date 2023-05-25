@@ -26,12 +26,12 @@
         <dependency>
             <groupId>org.scala-js</groupId>
             <artifactId>scalajs-library_2.13</artifactId>
-            <version>1.11.0</version>
+            <version>1.13.1</version>
         </dependency>
         <dependency>
             <groupId>org.scala-js</groupId>
             <artifactId>scalajs-test-bridge_2.13</artifactId>
-            <version>1.11.0</version>
+            <version>1.13.1</version>
             <scope>test</scope>
         </dependency>
         <dependency>
