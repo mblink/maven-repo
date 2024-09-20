@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>typify</groupId>
+    <artifactId>circe-typify_3</artifactId>
+    <packaging>jar</packaging>
+    <description>circe-typify</description>
+    <version>12.0.0</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>circe-typify</name>
+    <organization>
+        <name>typify</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>typify</groupId>
+            <artifactId>typify_3</artifactId>
+            <version>12.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala3-library_3</artifactId>
+            <version>3.3.3</version>
+        </dependency>
+        <dependency>
+            <groupId>io.circe</groupId>
+            <artifactId>circe-core_3</artifactId>
+            <version>0.14.10</version>
+        </dependency>
+    </dependencies>
+    <repositories>
+        <repository>
+            <id>bondlink-maven-repo</id>
+            <name>bondlink-maven-repo</name>
+            <url>https://raw.githubusercontent.com/mblink/maven-repo/main/</url>
+            <layout>default</layout>
+        </repository>
+    </repositories>
+</project>
