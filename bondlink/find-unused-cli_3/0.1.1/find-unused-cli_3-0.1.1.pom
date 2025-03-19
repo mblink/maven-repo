@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>bondlink</groupId>
+    <artifactId>find-unused-cli_3</artifactId>
+    <packaging>jar</packaging>
+    <description>find-unused-cli</description>
+    <version>0.1.1</version>
+    <licenses>
+        <license>
+            <name>Apache-2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>find-unused-cli</name>
+    <organization>
+        <name>bondlink</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>bondlink</groupId>
+            <artifactId>find-unused-core_3</artifactId>
+            <version>0.1.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala3-library_3</artifactId>
+            <version>3.6.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lihaoyi</groupId>
+            <artifactId>mainargs_3</artifactId>
+            <version>0.7.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jline</groupId>
+            <artifactId>jline</artifactId>
+            <version>3.29.0</version>
+        </dependency>
+    </dependencies>
+</project>
